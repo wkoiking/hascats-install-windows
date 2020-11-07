@@ -8,11 +8,10 @@
 
 ### 実行体、DLLの準備
 
-実行体
-
-e.g., `C:\Users\wanag\AppData\Roaming\local\bin\hascats-exe.exe`
-
+実行体(e.g., `C:\Users\wanag\AppData\Roaming\local\bin\hascats-exe.exe`)
 を`assets\`下に置く。
+
+開発用のPCで`stack exec hascats-exe`などで`hascats-exe`を起動しておいて、
 
 [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer)
 のView->Lower Pane View->DLLsで依存しているDLLを探す。
