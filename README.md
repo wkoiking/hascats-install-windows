@@ -1,10 +1,4 @@
-# Windowsの設定
-
-## Networkの設定
-
-いつもどおりIPアドレスを設定する。
-
-## インストーラーの作成とインストール
+# インストーラーの作成とインストール
 
 ### 実行体、DLLの準備
 
@@ -29,6 +23,11 @@
 をインストールして、`installer.nsi`を右クリックしてCompile NSIS Scriptをクリック。
 
 コンパイルに成功すればインストーラ`hascats-installer.exe`が生成される。
+
+# Networkの設定
+
+インストール先のPCのIPアドレスをいつもどおり設定する。
+（hascats-exeはIPアドレスによって自動的に該当Workstationとして起動する。）
 
 # 参考
 
