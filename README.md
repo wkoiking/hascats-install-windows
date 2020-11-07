@@ -1,35 +1,36 @@
-# Windows‚Ìİ’è
+# Windowsã®è¨­å®š
 
-## Network‚Ìİ’è
+## Networkã®è¨­å®š
 
-‚¢‚Â‚à‚Ç‚¨‚èIPƒAƒhƒŒƒX‚ğİ’è‚·‚éB
+ã„ã¤ã‚‚ã©ãŠã‚ŠIPã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’è¨­å®šã™ã‚‹ã€‚
 
-## ƒCƒ“ƒXƒg[ƒ‰[‚Ìì¬‚ÆƒCƒ“ƒXƒg[ƒ‹
+## ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ©ãƒ¼ã®ä½œæˆã¨ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
 
-### Às‘ÌADLL‚Ì€”õ
+### å®Ÿè¡Œä½“ã€DLLã®æº–å‚™
 
-Às‘Ì
+å®Ÿè¡Œä½“
 
 e.g., `C:\Users\wanag\AppData\Roaming\local\bin\hascats-exe.exe`
 
-‚ğ`assets\`‰º‚É’u‚­B
+ã‚’`assets\`ä¸‹ã«ç½®ãã€‚
 
 [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer)
-‚ÌView->Lower Pane View->DLLs‚ÅˆË‘¶‚µ‚Ä‚¢‚éDLL‚ğ’T‚·B
+ã®View->Lower Pane View->DLLsã§ä¾å­˜ã—ã¦ã„ã‚‹DLLã‚’æ¢ã™ã€‚
 
 ![process explorer](./image/process_explorer.png){#fig:process-explorer}
 
-Œ©‚Â‚¯‚½DLL‚ğ‘S‚Ä`assets\`‰º‚É’u‚­B
+è¦‹ã¤ã‘ãŸDLLã‚’å…¨éƒ¨`assets\`ä¸‹ã«ç½®ãã€‚
+ï¼ˆ`C:\Windows`ä¸‹ã®DLLã¯Windowsã®DLLãªã®ã§å¿…è¦ãªã„ï¼‰
 
-‚Å‚«‚ê‚Î`icon.ico`‚àì¬‚µ‚Ä`assets\`‰º‚É’u‚¢‚Ä‚¨‚­B
+ã§ãã‚Œã°`icon.ico`ã‚‚ä½œæˆã—ã¦`assets\`ä¸‹ã«ç½®ã„ã¦ãŠãã€‚
 
-### installer.nsi‚ÌƒRƒ“ƒpƒCƒ‹
+### installer.nsiã®ã‚³ãƒ³ãƒ‘ã‚¤ãƒ«
 
 [NSIS](https://nsis.sourceforge.io/Main_Page)
-‚ğƒCƒ“ƒXƒg[ƒ‹‚µ‚ÄA`installer.nsi`‚ğ‰EƒNƒŠƒbƒN‚µ‚ÄCompile NSIS Script‚ğƒNƒŠƒbƒNB
+ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã—ã¦ã€`installer.nsi`ã‚’å³ã‚¯ãƒªãƒƒã‚¯ã—ã¦Compile NSIS Scriptã‚’ã‚¯ãƒªãƒƒã‚¯ã€‚
 
-ƒRƒ“ƒpƒCƒ‹‚É¬Œ÷‚·‚ê‚ÎƒCƒ“ƒXƒg[ƒ‰`hascats-installer.exe`‚ª¶¬‚³‚ê‚éB
+ã‚³ãƒ³ãƒ‘ã‚¤ãƒ«ã«æˆåŠŸã™ã‚Œã°ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ©`hascats-installer.exe`ãŒç”Ÿæˆã•ã‚Œã‚‹ã€‚
 
-# Ql
+# å‚è€ƒ
 
 [Reference](https://blog.patchgirl.io/haskell/2020/10/30/windows-installer-for-haskell-software.html)
